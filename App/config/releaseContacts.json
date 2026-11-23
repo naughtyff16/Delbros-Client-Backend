@@ -1,0 +1,11 @@
+{
+  "_comment": "Approved release contacts and pay-to accounts (same as the frontend app-config.json releaseContacts). Replace the placeholders before go-live.",
+  "client": { "phone": "", "email": "" },
+  "vendor": { "phone": "", "email": "" },
+  "dpoEmail": "",
+  "payees": {
+    "DBL": { "bank": "Demo Bank (replace before release)", "accountName": "Delbros Leasing Inc.", "accountNo": "0000-0000-0000", "branch": "Head Office", "isDemo": true },
+    "NAK": { "bank": "Demo Bank (replace before release)", "accountName": "Nakamura", "accountNo": "0000-0000-0000", "branch": "Head Office", "isDemo": true },
+    "KNX": { "bank": "Demo Bank (replace before release)", "accountName": "KNEX", "accountNo": "0000-0000-0000", "branch": "Head Office", "isDemo": true }
+  }
+}
